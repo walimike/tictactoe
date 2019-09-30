@@ -1,6 +1,4 @@
-require 'computer.rb'
-require 'player.rb'
-require 'board.rb'
+require 'test_helper'
 
 describe Computer do
   let(:board) { Board.new }

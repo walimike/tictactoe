@@ -1,6 +1,4 @@
-require 'game.rb'
-require 'human.rb'
-require 'player.rb'
+require 'test_helper'
 
 describe Human do
   let(:x_marker) { Player::X_MARKER }

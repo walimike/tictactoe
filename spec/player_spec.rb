@@ -1,4 +1,4 @@
-require 'player.rb'
+require 'test_helper'
 
 describe Player do
   let(:x_marker) { Player::X_MARKER }

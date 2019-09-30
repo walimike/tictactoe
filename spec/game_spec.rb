@@ -1,9 +1,4 @@
-require 'game.rb'
-require 'board.rb'
-require 'human.rb'
-require 'computer.rb'
-require 'ui.rb'
-require 'pry'
+require 'test_helper'
 
 describe Game do
   let(:game) { Game.new(Board.new, Human.new('X'), Computer.new('O'), UI.new) }

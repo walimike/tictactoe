@@ -1,4 +1,4 @@
-require 'board.rb'
+require 'test_helper'
 
 describe Board do
   let(:board) { Board.new }
