@@ -40,6 +40,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    rake (13.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -75,6 +76,7 @@ DEPENDENCIES
   coveralls
   guard
   guard-rspec
+  rake
   rspec
 
 BUNDLED WITH
